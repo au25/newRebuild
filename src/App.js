@@ -1,12 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import Contact from './Contact/ContactSection';
-import './App.css';
+import React from "react";
+import {BrowserRouter} from "react-router-dom";
+import Contact from "./components/Contact/ContactSection";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Contact />
+      <React.Fragment>
+        <BrowserRouter >
+        <Navbar />
+        <CssBaseline />
+        <Contact />
+        </BrowserRouter >
+      </React.Fragment>
     </div>
   );
 }
