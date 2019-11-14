@@ -1,6 +1,7 @@
 const { createServer } = require("http");
 const express = require("express");
 let path = require("path");
+const routes = require('./routes/routes');
 
 const app = express();
 
