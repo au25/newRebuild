@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a4ed6a5e.chunk.css",
-    "main.js": "/static/js/main.40d44eb3.chunk.js",
-    "main.js.map": "/static/js/main.40d44eb3.chunk.js.map",
+    "main.js": "/static/js/main.776475aa.chunk.js",
+    "main.js.map": "/static/js/main.776475aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4cc6ffdc.js",
     "runtime-main.js.map": "/static/js/runtime-main.4cc6ffdc.js.map",
     "static/js/2.929ef2c2.chunk.js": "/static/js/2.929ef2c2.chunk.js",
     "static/js/2.929ef2c2.chunk.js.map": "/static/js/2.929ef2c2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84fa56f618819cdde3ed72b5b09ff55e.js": "/precache-manifest.84fa56f618819cdde3ed72b5b09ff55e.js",
+    "precache-manifest.95dbb1fa52ad4afb648c2aaf3285e560.js": "/precache-manifest.95dbb1fa52ad4afb648c2aaf3285e560.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a4ed6a5e.chunk.css.map": "/static/css/main.a4ed6a5e.chunk.css.map",
     "static/media/Tempify_resized.png": "/static/media/Tempify_resized.0e5af518.png",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.4cc6ffdc.js",
     "static/js/2.929ef2c2.chunk.js",
     "static/css/main.a4ed6a5e.chunk.css",
-    "static/js/main.40d44eb3.chunk.js"
+    "static/js/main.776475aa.chunk.js"
   ]
 }
