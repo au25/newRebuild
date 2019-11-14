@@ -5,7 +5,7 @@ const routes = require('./routes/routes');
 
 const app = express();
 
-const PORT = process.env.PORT || 4444;
+const PORT = process.env.PORT || 3001;
 
 // app.use((req, res, next) => {
 //     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -15,9 +15,9 @@ const PORT = process.env.PORT || 4444;
 //   })
 
 app.disable("x-powered-by");
-
 //serve static build - automate 
 app.use(express.static(path.resolve(__dirname, 'build')));
+app.use("/", routes);
 
 
 app.get("/", (req, res, next) => {

@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 
 exports.postLogin = (req, res, next) => {
 
+  console.log(req.body.email);
   const email = req.body.email;
   const password = req.body.password; 
   db((err, con) => {
