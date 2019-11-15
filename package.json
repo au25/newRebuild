@@ -2,6 +2,7 @@
   "name": "tempify",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pacific-anchorage-57480.herokuapp.com/",
   "dependencies": {
     "@date-io/date-fns": "^1.3.11",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",

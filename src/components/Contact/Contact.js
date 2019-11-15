@@ -79,7 +79,7 @@ export default function TextFields() {
   };
 
   function sendMessageContactUs() {
-    fetch("https://localhost:3001/email", {
+    fetch("http://localhost:3001/email", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -89,7 +89,9 @@ export default function TextFields() {
         cuEmail: values.cuEmail,
         cuMessage: values.cuMessage,
       })
-    });
+    }).then(
+      console.log("inside fetch promise: " + this)
+    );
     setValues({
       cuName: "",
       cuEmail: "",
